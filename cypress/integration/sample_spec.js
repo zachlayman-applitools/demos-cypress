@@ -1,6 +1,6 @@
 describe('Hello world', () => {
     it('works', () => {
-        cy.visit('https://applitools.com/helloworld');
+        cy.visit('https://applitools.com/helloworld?diff1');
 
         cy.eyesOpen({
             appName: 'Hello World!',
