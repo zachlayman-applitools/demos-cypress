@@ -15,7 +15,7 @@ describe('SSM Dashboard test', function () {
 
         // cy.navigateToSSM();
 
-        cy.visit('https://applitools.com/helloworld');
+        cy.visit('https://applitools.com/helloworld?diff1');
         cy.eyesCheckWindow('Student Success Dashboard');
     })
 })

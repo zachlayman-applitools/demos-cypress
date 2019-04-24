@@ -1,5 +1,6 @@
 module.exports = {
-  // appName: 'My app',
-  // showLogs: true,
-  // batchName: 'My batch'
+  appName: 'Cypress app',
+  showLogs: true,
+  batchName: 'Cypress batch'
+  // failCypressOnDiff: false,
 }
